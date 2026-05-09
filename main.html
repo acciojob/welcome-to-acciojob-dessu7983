@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccioJob</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .container{
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1{
+            color: #1f2937;
+            margin-bottom: 20px;
+        }
+
+        p{
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        @media(max-width: 600px){
+            .container{
+                padding: 25px;
+            }
+
+            h1{
+                font-size: 28px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-	
-<h1>
-	Welcome to Accio Jobs!
-</h1>
-	
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <main class="container">
+        <h1>Welcome to Accio Jobs!</h1>
+
+        <p>
+            Start your coding journey with AccioJob and build a successful
+            career in software development.
+        </p>
+    </main>
 
 </body>
-
 </html>
